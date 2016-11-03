@@ -1,0 +1,12 @@
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File(settingsDir, '../cocos2d/cocos/platform/android/libcocos2dx')
+include ':VRPerformanceTest'
+project(':VRPerformanceTest').projectDir = new File(settingsDir, 'app')
+include ':gvr'
+project(':gvr').projectDir = new File(settingsDir, '../vrsdks/gvr-sdk/gvr/prebuild/gvr')
+include ':gvr'
+project(':gvr').projectDir = new File(settingsDir, '../vrsdks/gvr-sdk/gvr/prebuild/gvr')
+include ':gvr'
+project(':gvr').projectDir = new File(settingsDir, '../vrsdks/gvr-sdk/gvr/prebuild/gvr')
+include ':gvr'
+project(':gvr').projectDir = new File(settingsDir, '../vrsdks/gvr-sdk/gvr/prebuild/gvr')
